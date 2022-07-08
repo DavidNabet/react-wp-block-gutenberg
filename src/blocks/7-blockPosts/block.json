@@ -1,0 +1,17 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "get-blocks/block-posts",
+	"version": "0.1.0",
+	"title": "Get Posts",
+	"category": "widgets",
+	"icon": "sticky",
+	"description": "Un bloc qui affiche un article",
+	"supports": {
+		"html": false	
+	},
+	"textdomain": "get-blocks",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}
