@@ -1,0 +1,17 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "get-blocks/gallery-slider2",
+	"version": "0.1.0",
+	"title": "11. Gallery Slider2",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Gallery Slider",
+	"supports": {
+		"html": true
+	},
+	"textdomain": "get-blocks",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

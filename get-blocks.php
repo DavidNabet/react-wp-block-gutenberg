@@ -35,6 +35,10 @@ function create_block_get_blocks_block_init()
 	);
 	register_block_type(__DIR__ . '/build/blocks/6-hooks');
 	register_block_type(__DIR__ . '/build/blocks/7-blockPosts', ['render_callback' => 'block_posts_render']);
+	register_block_type(__DIR__ . '/build/blocks/8-randomImage');
+	register_block_type(__DIR__ . '/build/blocks/9-shapeGenerator');
+	register_block_type(__DIR__ . '/build/blocks/10-addClassGallery');
+	register_block_type(__DIR__ . '/build/blocks/11-gallery-Slider');
 }
 add_action('init', 'create_block_get_blocks_block_init');
 

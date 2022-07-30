@@ -1,0 +1,17 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "get-blocks/gallery",
+	"version": "0.1.0",
+	"title": "10. Custom Lightbox Gallery",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Custom Gallery Vote",
+	"supports": {
+		"html": true
+	},
+	"textdomain": "get-blocks",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}
